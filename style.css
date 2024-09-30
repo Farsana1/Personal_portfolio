@@ -1,0 +1,56 @@
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Default shadow */
+}
+
+.hover-card:hover {
+    transform: translateY(-20px); /* Moves the card up slightly */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Bigger shadow */
+}
+#h5{
+    font-size: 22px;
+}
+h4{
+    font-size: 30px;
+}
+body {
+    background: linear-gradient(to right, #f0f4f8, #ffffff);
+}
+#nav li a:hover {
+    background: linear-gradient(180deg, rgba(247, 1, 120, 1)0%,
+            rgba(160, 8, 156, 1)51%,
+            rgba(99, 13, 178, 1)100%);
+    ;
+    color: white;
+    
+}
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    height: 45px;
+}
+
+.social-media a {
+    width: 42px;
+    height: 42px;
+    font-size: 1.5rem;
+    color: #e6006d;
+    background: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+.social-media a:hover {
+    background: linear-gradient(180deg, rgba(247, 1, 120, 1)0%,
+            rgba(160, 8, 156, 1)51%,
+            rgba(99, 13, 178, 1)100%);
+    ;
+    color: #fff;
+}
+
